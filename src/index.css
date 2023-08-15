@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+	--color-background: #101010;
+	--color-background-primary: #1a1223;
+	--color-background-secondary: #2d213b;
+}
+
+
+body {
+	background-color: var(--color-background);
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}

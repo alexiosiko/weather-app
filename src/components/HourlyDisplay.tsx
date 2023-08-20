@@ -22,7 +22,6 @@ const HourlyDisplay: React.FC<HourlyDisplayProps> = ({ hourlyData, index }) => {
 	
 	return (
 		<div className="hourly-display m-2 text-center ">
-
 			{<img src={weathercode}  width={50}  className=" m-auto" alt="weatherimage" />}
 			
 			{<p className="text-xl font-bold">
